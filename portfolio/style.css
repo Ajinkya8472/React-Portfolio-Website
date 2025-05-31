@@ -1,0 +1,81 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Placeholder font, can be changed later */
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text color */
+    line-height: 1.6;
+    padding-top: 70px; /* Added to prevent content overlap by fixed nav */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0052cc; /* Royal Blue for headings */
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0052cc; /* Royal Blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0052cc; /* Royal Blue */
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section Styling */
+#about {
+    padding: 4rem 2rem; /* Add padding for spacing */
+    background-color: #f0f8ff; /* AliceBlue, a very light, almost white-blue, to distinguish it subtly */
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 1.5rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
